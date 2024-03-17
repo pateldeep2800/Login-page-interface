@@ -1,2 +1,58 @@
-# Login-page-interface
-craeting a front end of the login page
+# Login-page-interface ( front-end of login page ) 
+TOOL-ANY ONLINE COMPILER
+LANGUAGE-JAVA
+
+(HTML CODE)
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        .container {
+            width: 300px;
+            background-color: #fff;
+            padding: 20px;
+            margin: 50px auto;
+            box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+        }
+        .container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .container input[type="text"], .container input[type="password"] {
+            width: 92%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+        }
+        .container input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+    </head>
+           <body>
+          <div class="container">
+        <h2>Login</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <input type="submit" value="Login">
+        </form>
+    </div>
+    </body>
+    </html>
